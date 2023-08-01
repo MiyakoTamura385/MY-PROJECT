@@ -1,0 +1,23 @@
+/*
+Bootstrapのデフォルトの変数をカスタマイズする
+
+参照
+https://getbootstrap.com/docs/5.3/customize/options/
+ */
+
+// 例えば角丸設定を上書きする
+$enable-rounded: false;
+
+// テーマカラー設定
+$primary: #C51162;
+
+// フォントを変える
+$font-family-base: serif;
+
+/* Bootstrap を読み込む */
+@import "~bootstrap/scss/bootstrap.scss";
+
+/* 自分のスタイルを書いていく */
+body {
+  font-feature-settings: "palt";
+}

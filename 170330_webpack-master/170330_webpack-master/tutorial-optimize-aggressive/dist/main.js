@@ -1,0 +1,1 @@
+(()=>{"use strict";!function(){const o="helloメソッドが実行された。";document.body.innerHTML=o,console.log(o)}()})();

@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1100px;
+  margin: 32px auto;
+  background-color: #6e0861;
+}
+.wrapper h2 {
+  padding: 16px;
+  text-align: center;
+  color: rgb(241, 111, 5);
+}
